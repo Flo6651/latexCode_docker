@@ -8,5 +8,3 @@ run apt-get clean && apt-get autoclean
 run rm -rf /var/lib/apt/lists/*
 run mkdir tmp && cd tmp && wget https://www.umlet.com/download/umlet_14_3/umlet-standalone-14.3.0.zip &&\
  unzip *.zip -d /opt/ && mv /opt/Umlet/umlet.sh /opt/Umlet/umlet && chmod a+x /opt/Umlet/umlet
-
-#PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
